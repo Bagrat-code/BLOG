@@ -5,6 +5,7 @@ body {
      background: url(profil.jpg) no-repeat center fixed;
      background-color: black;
      overflow: hidden;
+     
 }
 
 ul li {
@@ -246,3 +247,29 @@ footer {
 .pink {
     background-color: pink ;
 }
+
+
+/* MEDIA QUERIES - RESPONSIVE */
+
+@media screen and (max-width: 650px)
+{
+    h1
+    {
+        color: red; 
+        font-size: 2.0em;
+        background-color: black;   
+    }
+
+    body {
+      overflow-y: scroll;
+    }
+    
+     section {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         padding-top: 50px;
+     }
+
+}
+
